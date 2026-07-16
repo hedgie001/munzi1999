@@ -1,0 +1,251 @@
+#VRML V2.0 utf8
+
+# Produced by 3D Studio MAX VRML97 exporter, Version 2.05, Revision 1.3
+# MAX File: pult.max, Date: Tue Jun 08 22:52:12 1999
+
+WorldInfo {
+  title "Klassenzimmer"
+  info "Klassenzimmer der 9b"
+}
+DEF Pult Transform {
+  translation -3.08 16.6 -3.51
+  children [
+  DEF Pult-TIMER TimeSensor { loop TRUE cycleInterval 3.33 },
+    DEF Pult_oben Transform {
+      translation 33 15.6 -4.97
+      rotation 0.577 0.577 0.577 -2.09
+      scale 0.917 0.917 0.917
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.38 0.882 0.404
+              ambientIntensity 0.397
+              specularColor 0.045 0.045 0.045
+              shininess 0.287
+              transparency 0
+            }
+          }
+          geometry DEF Pult_oben-FACES IndexedFaceSet {
+            ccw FALSE
+            solid TRUE
+            coord DEF Pult_oben-COORD Coordinate { point [
+              22.1 0 0, 10 0 0, -11.1 0 -5.27, -11.1 0 -4.48, 10 0 0.786, 
+              22.1 0 0.786, 22.1 -72 0, 10 -72 0, -11.1 -72 -5.27, 
+              -11.1 -72 -4.48, 10 -72 0.786, 22.1 -72 0.786]
+            }
+            coordIndex [
+              0, 1, 7, -1, 0, 7, 6, -1, 1, 2, 8, -1, 1, 8, 7, -1, 
+              2, 3, 9, -1, 2, 9, 8, -1, 3, 4, 10, -1, 3, 10, 9, -1, 
+              4, 5, 11, -1, 4, 11, 10, -1, 5, 0, 6, -1, 5, 6, 11, -1, 
+              1, 3, 2, -1, 1, 4, 3, -1, 0, 4, 1, -1, 0, 5, 4, -1, 
+              7, 8, 9, -1, 7, 9, 10, -1, 6, 7, 10, -1, 6, 10, 11, -1]
+            }
+        }
+      ]
+    },
+    DEF Pult_bein02 Transform {
+      translation 33 -8.53 0.762
+      rotation 0.577 0.577 0.577 -2.09
+      scale 0.917 0.917 0.917
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.91 0.91 0.91
+              ambientIntensity 0.682
+              specularColor 0.9 0.9 0.9
+              shininess 0.287
+              transparency 0
+            }
+          }
+          geometry DEF Pult_bein02-FACES IndexedFaceSet {
+            ccw FALSE
+            solid TRUE
+            coord DEF Pult_bein02-COORD Coordinate { point [
+              3.75 0 26.5, 3.75 0 -3.75, 13.8 0 -7.54, 13.8 0 -8.75, 
+              -16.3 0 -8.75, -16.3 0 -7.54, -0.633 0 -3.75, -0.633 0 25.1, 
+              3.75 -2 26.5, 3.75 -2 -3.75, 13.8 -2 -7.54, 13.8 -2 -8.75, 
+              -16.3 -2 -8.75, -16.3 -2 -7.54, -0.633 -2 -3.75, 
+              -0.633 -2 25.1]
+            }
+            coordIndex [
+              0, 1, 9, -1, 0, 9, 8, -1, 1, 2, 10, -1, 1, 10, 9, -1, 
+              2, 3, 11, -1, 2, 11, 10, -1, 4, 5, 13, -1, 4, 13, 12, -1, 
+              5, 6, 14, -1, 5, 14, 13, -1, 6, 7, 15, -1, 6, 15, 14, -1, 
+              7, 1, 0, -1, 6, 1, 7, -1, 3, 5, 4, -1, 3, 6, 5, -1, 
+              3, 1, 6, -1, 3, 2, 1, -1, 15, 8, 9, -1, 14, 15, 9, -1, 
+              11, 12, 13, -1, 11, 13, 14, -1, 11, 14, 9, -1, 
+              11, 9, 10, -1]
+            }
+        }
+      ]
+    },
+    DEF Pult_Latte Transform {
+      translation 31.4 -1.28 2.03
+      rotation 0.577 0.577 0.577 -2.09
+      scale 0.917 0.917 0.917
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.91 0.91 0.91
+              ambientIntensity 0.682
+              specularColor 0.9 0.9 0.9
+              shininess 0.287
+              transparency 0
+            }
+          }
+          geometry DEF Pult_Latte-FACES IndexedFaceSet {
+            ccw FALSE
+            solid TRUE
+            coord DEF Pult_Latte-COORD Coordinate { point [
+              0.955 0 -1.43, -0.955 0 -1.43, 0.955 0 1.43, -0.955 0 1.43, 
+              0.955 -70 -1.43, -0.955 -70 -1.43, 0.955 -70 1.43, 
+              -0.955 -70 1.43]
+            }
+            coordIndex [
+              0, 1, 5, -1, 5, 4, 0, -1, 1, 3, 7, -1, 7, 5, 1, -1, 
+              3, 2, 6, -1, 6, 7, 3, -1, 2, 0, 4, -1, 4, 6, 2, -1]
+            }
+        }
+      ]
+    },
+    DEF Pult_bein10 Transform {
+      translation -31.3 -8.53 0.762
+      rotation 0.577 0.577 0.577 -2.09
+      scale 0.917 0.917 0.917
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.91 0.91 0.91
+              ambientIntensity 0.682
+              specularColor 0.9 0.9 0.9
+              shininess 0.287
+              transparency 0
+            }
+          }
+        geometry USE Pult_bein02-FACES
+        }
+      ]
+    },
+    DEF Pultdeckel_holz01 Transform {
+      translation 0.428 10.9 -3.11
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.639 0.549 0.192
+              ambientIntensity 0.153
+              specularColor 0.045 0.045 0.045
+              shininess 0.287
+              transparency 0
+            }
+            texture ImageTexture {
+              url "klassenzimmer.WRL/Holz.GIF"
+            }
+          }
+          geometry DEF Pultdeckel_holz01-FACES IndexedFaceSet {
+            ccw TRUE
+            solid TRUE
+            coord DEF Pultdeckel_holz01-COORD Coordinate { point [
+              -33.4 4.66 8.73, 32.7 4.66 8.76, 32.7 4.66 7.45, 
+              2.65 4.66 7.45, 2.65 0 -11.5, 2.65 0 -12.2, -2.2 0 -12.2, 
+              -2.2 0 -11.6, -2.2 4.66 7.26, -33.4 4.66 7.26, 
+              -33.4 5.66 8.73, 32.7 5.66 8.76, 32.7 5.66 7.45, 
+              2.65 5.66 7.45, 2.65 1 -11.5, 2.65 1 -12.2, -2.2 1 -12.2, 
+              -2.2 5.66 7.26, -33.4 5.66 7.26, 32.7 4.67 17.2, 
+              -33.4 4.67 17.2, -33.4 4.67 18.3, 32.7 4.67 18.3, 
+              32.7 5.67 17.2, -33.4 5.67 17.2, -33.4 5.67 18.3, 
+              32.7 5.67 18.3]
+            }
+            texCoord DEF Pultdeckel_holz01-TEXCOORD TextureCoordinate { point [
+              0 0, 0.377 0, 0.385 0, 0.556 0, 0.668 0, 0.672 0, 
+              0.699 0, 0.703 0, 0.814 0, 0.992 0, 1 0, 0 1, 0.377 1, 
+              0.385 1, 0.556 1, 0.668 1, 0.672 1, 0.699 1, 0.703 1, 
+              0.814 1, 0.992 1, 1 1, 0 0, 0.492 0, 0.5 0, 0.992 0, 
+              1 0, 0 1, 0.492 1, 0.5 1, 0.992 1, 1 1, 0 0.314, 
+              1 0.313, 1 0.356, 0.545 0.356, 0.545 0.978, 0.545 1, 
+              0.472 1, 0.472 0.982, 0.472 0.362, 0 0.362, 1 0.0368, 
+              0 0.0368, 0 0, 1 0, 0 0.314, 1 0.313, 1 0.356, 
+              0.545 0.356, 0.545 0.978, 0.545 1, 0.472 1, 0.472 0.982, 
+              0.472 0.362, 0 0.362, 1 0.0368, 0 0.0368, 0 0, 
+              1 0]
+            }
+            coordIndex [
+              0, 1, 11, -1, 0, 11, 10, -1, 1, 2, 12, -1, 1, 12, 11, -1, 
+              2, 3, 13, -1, 2, 13, 12, -1, 3, 4, 14, -1, 3, 14, 13, -1, 
+              4, 5, 15, -1, 4, 15, 14, -1, 5, 6, 16, -1, 5, 16, 15, -1, 
+              6, 7, 16, -1, 7, 8, 17, -1, 7, 17, 16, -1, 8, 9, 18, -1, 
+              8, 18, 17, -1, 9, 0, 10, -1, 9, 10, 18, -1, 19, 20, 24, -1, 
+              19, 24, 23, -1, 20, 21, 25, -1, 20, 25, 24, -1, 
+              21, 22, 26, -1, 21, 26, 25, -1, 22, 19, 23, -1, 
+              22, 23, 26, -1, 10, 11, 12, -1, 10, 12, 13, -1, 
+              18, 10, 13, -1, 17, 18, 13, -1, 17, 13, 14, -1, 
+              16, 17, 14, -1, 16, 14, 15, -1, 25, 26, 23, -1, 
+              25, 23, 24, -1]
+            texCoordIndex [
+              0, 1, 12, -1, 0, 12, 11, -1, 1, 2, 13, -1, 1, 13, 12, -1, 
+              2, 3, 14, -1, 2, 14, 13, -1, 3, 4, 15, -1, 3, 15, 14, -1, 
+              4, 5, 16, -1, 4, 16, 15, -1, 5, 6, 17, -1, 5, 17, 16, -1, 
+              6, 7, 18, -1, 6, 18, 17, -1, 7, 8, 19, -1, 7, 19, 18, -1, 
+              8, 9, 20, -1, 8, 20, 19, -1, 9, 10, 21, -1, 9, 21, 20, -1, 
+              22, 23, 28, -1, 22, 28, 27, -1, 23, 24, 29, -1, 
+              23, 29, 28, -1, 24, 25, 30, -1, 24, 30, 29, -1, 
+              25, 26, 31, -1, 44, 43, 42, -1, 46, 47, 48, -1, 
+              46, 48, 49, -1, 55, 46, 49, -1, 54, 55, 49, -1, 
+              54, 49, 50, -1, 53, 54, 50, -1, 53, 50, 51, -1, 
+              53, 51, 52, -1]
+            }
+        }
+      ]
+    },
+    DEF Pult_0 Transform {
+      translation 31.4 11 -1.3
+      rotation 0.577 0.577 0.577 -2.09
+      scale 0.917 0.917 0.917
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.639 0.549 0.192
+              ambientIntensity 0.153
+              specularColor 0.045 0.045 0.045
+              shininess 0.287
+              transparency 0
+            }
+            texture ImageTexture {
+              url "klassenzimmer.WRL/Holz.GIF"
+            }
+          }
+          geometry DEF Pult_0-FACES IndexedFaceSet {
+            ccw FALSE
+            solid TRUE
+            coord DEF Pult_0-COORD Coordinate { point [
+              -14.4 0 0, 6 0 5, 16 0 5, 16 0 -7.14, -14.4 0 -7.14, 
+              -14.4 -70 0, 6 -70 5, 16 -70 5, 16 -70 -7.14, -14.4 -70 -7.14]
+            }
+            texCoord DEF Pult_0-TEXCOORD TextureCoordinate { point [
+              0 0, 0.26 0, 0.384 0, 0.535 0, 0.911 0, 1 0, 0 1, 
+              0.26 1, 0.384 1, 0.535 1, 0.911 1, 1 1, 1 0.588, 
+              0.329 1, 0 1, 0 0, 1 0, 1 0.588, 0.329 1, 0 1, 
+              0 0, 1 0]
+            }
+            coordIndex [
+              0, 1, 6, -1, 0, 6, 5, -1, 1, 2, 7, -1, 1, 7, 6, -1, 
+              2, 3, 8, -1, 2, 8, 7, -1, 3, 4, 9, -1, 3, 9, 8, -1, 
+              4, 0, 5, -1, 4, 5, 9, -1, 3, 0, 4, -1, 3, 1, 0, -1, 
+              2, 1, 3, -1, 8, 9, 5, -1, 8, 5, 6, -1, 7, 8, 6, -1]
+            texCoordIndex [
+              0, 1, 7, -1, 0, 7, 6, -1, 1, 2, 8, -1, 1, 8, 7, -1, 
+              2, 3, 9, -1, 2, 9, 8, -1, 3, 4, 10, -1, 3, 10, 9, -1, 
+              4, 5, 11, -1, 4, 11, 10, -1, 15, 12, 16, -1, 15, 13, 12, -1, 
+              14, 13, 15, -1, 20, 21, 17, -1, 20, 17, 18, -1, 
+              19, 20, 18, -1]
+            }
+        }
+      ]
+    }
+  ]
+}
